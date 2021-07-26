@@ -1,0 +1,352 @@
+  <!doctype html>
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hematologia</title>
+    <style>
+    {
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      background-color: #e8e8e8;
+    }
+    nav{
+      width: 400px;
+      height: auto;
+      font-family: Arial
+      margin: 100px auto;
+    }
+    .item label{
+      display: block;
+      padding: 10px;
+      background-color: #434343;
+      font-size: 20px;
+      cursor: pointer;
+      color: #fff;
+      border-bottom: solid 2px #aaa;
+    }
+    .item label:hover{
+      background-color: #f2673a
+    }
+    .item ul{
+      width:200%;
+      list-style: none;
+      overflow: hidden;
+      max-height: 0;
+      transition: all .4s linear;
+    }
+    .item input{
+      display: none;
+    }
+    item ul li a:hover{
+      background-color: #9cf
+    }
+    .item ul li a{
+      width: 100px;
+      height: 20px;
+      padding: 10px;
+      display: block;
+      text-decoration: none;
+      background-color: #fafafa;
+      color:#333;
+      border-bottom: solid 2px #aaa;
+    }
+    .item input:checked ~ ul{
+      height: auto;
+      max-height: 200px;
+      transform: all;
+    }
+    </style>
+    <style media="screen">
+    *{
+      margin: 0;
+      padding: 0;
+    }
+
+    body{
+      background-color: #ddd;
+      font-family: 'Arial';
+    }
+
+    .nav_tabs {
+      width: 600px;
+      height: 400px;
+      margin: 100px auto;
+      background-color: #fff;
+      position: relative;
+    }
+    .nav_tabs ul{
+      list-style: none;
+    }
+
+    .nav_tabs ul li {
+      float: left;
+    }
+
+    .nav_tabs label {
+      width: 100px;
+      padding: 25px;
+      background-color: #363b48;
+      display: block;
+      color: #fff;
+      cursor: pointer;
+      text-align: center;
+    }
+
+    .rd_tabs: checked - label{
+      background-color: #e54e43;
+    }
+    .rd_tabs{
+      display: none;
+    }
+    </style>
+
+
+
+  </head>
+        <body>
+        <!--  <nav>
+            <div class="item">
+              <input type="checkbox" id="check1">
+              <label for="check1">Menu</label>
+              <ul>
+                  <li><a href="">Home</a></li>
+
+              </ul>
+
+            </div>
+          </nav> -->
+
+
+          <!-- <nav>
+            <ul>
+              <li>
+                <input type="radio" name="tabs" class="rd_tabs" id="tab1">
+                <label for="tab1">Tab 1</label>
+                <div class="content"></div>
+
+
+              </li>
+            </ul>
+          </nav>     -->
+
+          <p><h1>Hematologia</h1><br>
+
+            <p>A hematologia é a área das ciências médicas que realiza o
+            estudo do sangue e seus componentes, tendo como objetivo identificar e
+            tratar patologias relacionadas. Nessa modalidade médica, além do
+            sangue propriamente dito, o baço, linfonodos, medula óssea são alvos
+            de estudo. O sangue é um tecido fluído composto por diferentes
+            tipos células e substâncias como plasma e proteínas. As células presentes no sangue são
+            divididas em linhagem branca (leucócitos), linhagem vermelha (
+            hemácias ou eritrócitos) e as plaquetas ou trombócitos.</p>
+
+            <nav>
+              <div class="item">
+                <!--<input type="checkbox" id="check1">-->
+                <label for="check1">Hemácias</label>
+            <input type="checkbox" id="check1"><ul>
+            <p>As hemácias ou eritrócitos possuem
+            formato de disco bicôncavo e em seu interior encontra-se a proteína
+            hemoglobina, relacionada com o transporte de gases. Em ambiente
+            isotônico, as hemácias costumam apresentar 7,5 μm de diâmetro, 2,6
+            μm de espessura na borda e 0,8 μm na região central, a coloração
+            vermelha das hemácias resulta de um pigmento denominado de
+            hemoglobina.
+            A hemoglobina é uma proteína formada por quatro
+            subunidades que apresentam uma porção proteica ligada a um grupo
+            heme, que contém ferro no centro da sua estrutura molecular. É essa
+            proteína a responsável por garantir o transporte de oxigênio por
+            todo organismo.</div></nav><br></ul></p><br>
+
+
+              <nav>
+                 <div class="item">
+                   <input type="checkbox" id="check2">
+                   <label for="check2">Leucócitos</label><ul>
+              Os leucócitos,  do grego λευκός, leukós (branco) + κύτος, kýtos
+              (célula), são também chamados de glóbulos brancos. São as células
+              que agem na defesa do nosso organismo, trabalhando para combater
+              alergias, infecções e, por isso, são fundamentais contra a presença
+              de micro-organismos potencialmente patogênicos.
+              Cada uma dessas células são responsáveis por atuar
+              em um determinado tipo de situação, onde dependendo do agente
+              patogênico uma delas terá uma resposta de defesa mais efetiva. por
+              exemplo, em infecções causadas por bactérias, os neutrófilos são os
+              responsáveis por atuar atacando esses microorganismos, o mesmo
+              acontece quando o assunto é entre os linfócitos e os vírus, o qual a
+              linhagem linfocítica é especialista.
+              Como citado anteriormente cada leucócito possui
+              peculiaridades para atuar no processo de defesa do nosso
+              organismo, veremos a seguir quis as características e os
+              meios utilizados dessas células para manter em dia nossa
+              homeostase.</nav></div></ul><br>
+
+              <nav class="nav_tabs">
+                <ul>
+                  <li>
+                    <input type="radio" name="tabs" class="rd_tabs" id="tab1">
+                    <label for="tab1">Tab 1</label>
+                    <div class="content"></div>
+                            <!--Neutrófilos
+                            <p>Os neutrófilos
+                            (granulócitos) são as principais defesas do corpo contra as
+                            infecções bacterianas e as infecções fúngicas. quando a
+                            neutropenia se apresenta, a resposta inflamatória a essas
+                            infecções é ineficaz.
+                            O limite inferior normal de referência para os
+                            neutrófilos (leucometria total × percentual de
+                            neutrófilos e bastões) é de 1.500/μl nos brancos e
+                            ainda mais baixo nos negros (cerca de 1.200/μl). as
+                            contagens de neutrófilos não são tão estáveis quanto
+                            as contagens de outras células e podem variar
+                            consideravelmente em curtos períodos de tempo,
+                            dependendo de muitos fatores como estado de atividade,
+                            ansiedade, infecção e fármacos. portanto, várias
+                            dosagens podem ser necessárias para determinar a
+                            gravidade da neutropenia. Quando a contagem de neutrófilos cai para < 500/μl, a
+                            microbiota endógena (p. ex., na boca ou nos
+                            intestinos) pode causar infecções. se a contagem cair
+                            para < 200/μl, a resposta inflamatória pode ser
+                            atenuada e pode não haver achados inflamatórios
+                            habituais de leucocitose ou leucócitos na urina ou no
+                            sítio da infecção. a neutropenia aguda grave, em
+                            especial se houver outro fator (p. ex., câncer),
+                            prejudica significativamente o sistema imunitário e
+                            pode propiciar infecções rapidamente fatais. a
+                            integridade da pele e das mucosas, o suprimento
+                            vascular para o tecido e o estado nutricional do
+                            paciente também influenciam o risco de infecções.</p>-->
+
+                  </li>
+                </ul>
+              </nav>
+
+              <nav class="nav_tabs">
+                <ul>
+                  <li>
+                    <input type="radio" name="tabs" class="rd_tabs" id="tab2"
+                    checked>
+                    <label for="tab1">Tab 2</label>
+                    <div class="content"></div><!--
+                            Eosinófilos
+                            <p>Eosinófilos atuam na resposta do organismo,
+                            destruindo substâncias estranhas e controlando
+                            inflamações do corpo. Assim, estão presentes em
+                            quadros de alergias e no combate de parasitas e
+                            infecções. Apesar de serem encontrados também na corrente
+                            sanguínea, a maior parcela de eosinófilos está
+                            presente nos tecidos do corpo. Geralmente estão em menor número no organismo do que
+                            outras células brancas como os linfócitos, que atuam
+                            contra infecções e tumores, por exemplo.</p>-->
+                    </div>
+                  </li>
+                </ul>
+              </nav>
+
+              <nav class="nav_tabs">
+                <ul>
+                  <li>
+                    <input type="radio" name="tabs" class="rd_tabs" id="tab3">
+                    <label for="tab1">Tab 3</label>
+                    <div class="content"></div>
+                            Basófilos
+                            <p>Os basófilos são um tipo de glóbulo branco do
+                            sangue que desempenha algum papel na vigilância
+                            imunológica (como a detecção e destruição de cânceres
+                            em estágio muito inicial) e no reparo de feridas. Os
+                            basófilos podem liberar histamina e outros mediadores
+                            e participam do início das reações alérgicas.é a
+                            célula circulante menos encontrada no sangue
+                            periférico dentre os leucócitos. aproximadamente de
+                            0-1% dos leucócitos são basófilos, em microscopia são
+                            muito difíceis de encontrar quando há aumento da
+                            quantidade de basófilos no sangue periférico usa-se o
+                            termo  basofilia, que é caracterizado pela reação
+                            alérgica ou uma inflamação de caráter crônico.</p>
+                    </div>
+                  </li>
+                </ul>
+              </nav>
+
+                <nav class="nav_tabs">
+                  <ul>
+                    <li>
+                      <input type="radio" name="tabs" class="rd_tabs" id="tab4">
+                      <label for="tab1">Tab 4</label>
+                      <div class="content"></div>
+                             Monócitos
+                             <p>Os monócitos estão entre os 5 tipos de leucócitos
+                              presentes em nosso sistema imune, e têm a função de
+                              defender o organismo de corpos estranhos, como
+                              bactérias e vírus. após sua origem e diferenciação,
+                              os monócitos movem-se para a corrente sanguínea e
+                              permanecem nela por algumas horas até finalmente
+                              migrar para os tecidos, onde diferenciam-se em
+                              macrófagos; dependendo da localização, os macrófagos
+                              recebem diferentes nomes como micróglia no sistema
+                              nervoso, células de kupfer no fígado e células de
+                              langerhans na epiderme.</p>
+                      </div>
+                    </li>
+                  </ul>
+                </nav>
+
+                 <nav class="nav_tabs">
+                   <ul>
+                     <li>
+                       <input type="radio" name="tabs" class="rd_tabs" id="tab5">
+                       <label for="tab1">Tab 5</label>
+                       <div class="content"></div>
+                          Linfócitos
+                       <p>Linfócitos são células responsáveis pela defesa
+                          do corpo. eles pertencem ao grupo dos leucócitos,
+                          também chamados de glóbulos brancos, e podem ser
+                          divididos em três tipos. um aumento na quantidade
+                          desse componente sanguíneo pode indicar que há
+                          alguma infecção, ou ainda, alguma doença presente,
+                          como o linfoma, um tipo de câncer do sistema
+                          linfático. a classe de linfócito na qual esse
+                          tumor acontece, apesar de não interferir,
+                          diretamente, nas chances de cura, influencia em
+                          qual tratamento é o mais indicado. Os tipos de linfócitos que existe são os t, os b
+                          e os nk, também conhecidos como células natural
+                          killer. a sua produção , assim como acontece com
+                          as outras células do sangue, acontece na medula
+                          óssea a partir da célula-tronco.
+                          <p>Apesar de, no geral, a função dos linfócitos b
+                          ser similar com a função dos linfócitos t e das
+                          células nk , cada um deles utiliza um mecanismo
+                          diferenciado para combater os micro-organismos
+                        invasores. </p>
+                       </div>
+                     </li>
+                   </ul>
+                 </nav>
+
+              <nav class="nav_tabs">
+                <ul>
+                  <li>
+                    <input type="radio" name="tabs" class="rd_tabs" id="tab6">
+                    <label for="tab1">Tab 6</label>
+                    <div class="content"></div>
+                            Plaquetas
+                            <p> As plaquetas (às vezes chamadas trombócitos)
+                            são fragmentos celulares que circulam na corrente
+                            sanguínea e ajudam o sangue a coagular. a
+                            trombopoietina, produzida principalmente no
+                            fígado, estimula a medula óssea a fabricar células
+                            grandes (megacariócitos) que, por sua vez,
+                            fabricam plaquetas a partir de seu citoplasma. as
+                            plaquetas não usadas em coágulos circulam por sete
+                            a dez dias e são então destruídas. cerca de um
+                            terço delas estão sempre armazenadas no baço. </p>
+                    </div>
+                  </li>
+                </ul>
+              </nav>
+
+
+           </body>
+    </html>
